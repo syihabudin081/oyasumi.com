@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="bg-black fixed top-0 w-full z-20 border-gray-200 px-2 sm:px-4 py-2 rounded ">
     <div className="container flex flex-wrap justify-between items-center mx-auto">
       <a href="https://flowbite.com/" className="flex items-center">
-        <img src="https://cdn-icons-png.flaticon.com/512/2829/2829066.png" className="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
+        <img src="https://cdn-icons-png.flaticon.com/512/2829/2829066.png" className="mr-3 h-6 sm:h-9" alt="Oyasumi.com" />
         <span className="self-center text-xl font-semibold whitespace-nowrap text-white">Oyasumi.com</span>
       </a>
       <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
