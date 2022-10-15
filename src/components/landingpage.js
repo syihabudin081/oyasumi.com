@@ -543,83 +543,367 @@ function Landingpage() {
           More...
         </button>
       </div>
-      <section className="text-gray-600 body-font w-full bg-black ">
-        <div className="container px-5 py-24 mx-auto">
-          <h1 className="text-3xl font-medium title-font text-white mb-12 text-center">
-            Testimonials
-          </h1>
-          <div className="flex flex-wrap -m-4">
-            <div className="p-4 md:w-1/2 w-full">
-              <div className="h-full bg-gray-100 p-8 rounded">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  className="block w-5 h-5 text-gray-400 mb-4"
-                  viewBox="0 0 975.036 975.036"
-                >
-                  <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z" />
-                </svg>
-                <p className="leading-relaxed mb-6">
-                  Synth chartreuse iPhone lomo cray raw denim brunch everyday
-                  carry neutra before they sold out fixie 90's microdosing.
-                  Tacos pinterest fanny pack venmo, post-ironic heirloom
-                  try-hard pabst authentic iceland.
-                </p>
-                <a className="inline-flex items-center">
-                  <img
-                    alt="testimonial"
-                    src="https://dummyimage.com/106x106"
-                    className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
-                  />
-                  <span className="flex-grow flex flex-col pl-4">
-                    <span className="title-font font-medium text-gray-900">
-                      Holden Caulfield
-                    </span>
-                    <span className="text-gray-500 text-sm">
-                      Pengguna Oyasumi.com
-                    </span>
-                  </span>
-                </a>
+      <div class="container py-24 px-6 mx-auto bg-black text-white">
+        <section class="mb-32 text-white text-center">
+          <h2 class="text-3xl font-bold mb-12">Testimonials</h2>
+
+          <div class="grid md:grid-cols-3 gap-x-6 lg:gap-x-12">
+            <div class="mb-12 md:mb-0">
+              <div class="flex justify-center mb-6">
+                <img
+                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg"
+                  class="rounded-full shadow-lg w-32"
+                />
               </div>
+              <h5 class="text-lg font-bold mb-4">Maria Smantha</h5>
+              <h6 class="font-medium text-blue-600 mb-4">Web Developer</h6>
+              <p class="mb-4">
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fas"
+                  data-icon="quote-left"
+                  class="w-6 pr-2 inline-block"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+                  ></path>
+                </svg>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+                eos id officiis hic tenetur quae quaerat ad velit ab hic
+                tenetur.
+              </p>
+              <ul class="flex justify-center mb-0">
+                <li>
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="star"
+                    class="w-4 text-yellow-500"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                    ></path>
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="star"
+                    class="w-4 text-yellow-500"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                    ></path>
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="star"
+                    class="w-4 text-yellow-500"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                    ></path>
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="star"
+                    class="w-4 text-yellow-500"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                    ></path>
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="star-half-alt"
+                    class="w-4 text-yellow-500"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 536 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M508.55 171.51L362.18 150.2 296.77 17.81C290.89 5.98 279.42 0 267.95 0c-11.4 0-22.79 5.9-28.69 17.81l-65.43 132.38-146.38 21.29c-26.25 3.8-36.77 36.09-17.74 54.59l105.89 103-25.06 145.48C86.98 495.33 103.57 512 122.15 512c4.93 0 10-1.17 14.87-3.75l130.95-68.68 130.94 68.7c4.86 2.55 9.92 3.71 14.83 3.71 18.6 0 35.22-16.61 31.66-37.4l-25.03-145.49 105.91-102.98c19.04-18.5 8.52-50.8-17.73-54.6zm-121.74 123.2l-18.12 17.62 4.28 24.88 19.52 113.45-102.13-53.59-22.38-11.74.03-317.19 51.03 103.29 11.18 22.63 25.01 3.64 114.23 16.63-82.65 80.38z"
+                    ></path>
+                  </svg>
+                </li>
+              </ul>
             </div>
-            <div className="p-4 md:w-1/2 w-full">
-              <div className="h-full bg-gray-100 p-8 rounded">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  className="block w-5 h-5 text-gray-400 mb-4"
-                  viewBox="0 0 975.036 975.036"
-                >
-                  <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z" />
-                </svg>
-                <p className="leading-relaxed mb-6">
-                  Synth chartreuse iPhone lomo cray raw denim brunch everyday
-                  carry neutra before they sold out fixie 90's microdosing.
-                  Tacos pinterest fanny pack venmo, post-ironic heirloom
-                  try-hard pabst authentic iceland.
-                </p>
-                <a className="inline-flex items-center">
-                  <img
-                    alt="testimonial"
-                    src="https://dummyimage.com/107x107"
-                    className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
-                  />
-                  <span className="flex-grow flex flex-col pl-4">
-                    <span className="title-font font-medium text-gray-900">
-                      Alper Kamu
-                    </span>
-                    <span className="text-gray-500 text-sm">
-                      Pengguna Oyasumi.com
-                    </span>
-                  </span>
-                </a>
+            <div class="mb-12 md:mb-0">
+              <div class="flex justify-center mb-6">
+                <img
+                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(2).jpg"
+                  class="rounded-full shadow-lg w-32"
+                />
               </div>
+              <h5 class="text-lg font-bold mb-4">Lisa Cudrow</h5>
+              <h6 class="font-medium text-blue-600 mb-4">Graphic Designer</h6>
+              <p class="mb-4">
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fas"
+                  data-icon="quote-left"
+                  class="w-6 pr-2 inline-block"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+                  ></path>
+                </svg>
+                Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                corporis suscipit laboriosam, nisi ut aliquid commodi.
+              </p>
+              <ul class="flex justify-center mb-0">
+                <li>
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="star"
+                    class="w-4 text-yellow-500"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                    ></path>
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="star"
+                    class="w-4 text-yellow-500"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                    ></path>
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="star"
+                    class="w-4 text-yellow-500"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                    ></path>
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="star"
+                    class="w-4 text-yellow-500"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                    ></path>
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="star"
+                    class="w-4 text-yellow-500"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                    ></path>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+            <div class="mb-0">
+              <div class="flex justify-center mb-6">
+                <img
+                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg"
+                  class="rounded-full shadow-lg w-32"
+                />
+              </div>
+              <h5 class="text-lg font-bold mb-4">John Smith</h5>
+              <h6 class="font-medium text-blue-600 mb-4">
+                Marketing Specialist
+              </h6>
+              <p class="mb-4">
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fas"
+                  data-icon="quote-left"
+                  class="w-6 pr-2 inline-block"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+                  ></path>
+                </svg>
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis praesentium voluptatum deleniti atque corrupti.
+              </p>
+              <ul class="flex justify-center mb-0">
+                <li>
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="star"
+                    class="w-4 text-yellow-500"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                    ></path>
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="star"
+                    class="w-4 text-yellow-500"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                    ></path>
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="star"
+                    class="w-4 text-yellow-500"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                    ></path>
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="star"
+                    class="w-4 text-yellow-500"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                    ></path>
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="far"
+                    data-icon="star"
+                    class="w-4 text-yellow-500"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"
+                    ></path>
+                  </svg>
+                </li>
+              </ul>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
 
-      <section class="pt-20 lg:pt-[120px] pb-10 lg:pb-20 bg-black text-white">
+      <section class=" pb-10 lg:pb-20 bg-black text-white">
         <div class="container">
           <div class="flex flex-wrap -mx-4">
             <div class="w-full px-4">
