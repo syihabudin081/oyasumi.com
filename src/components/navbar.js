@@ -3,7 +3,8 @@ import 'flowbite';
 const Navbar = () => {
 
   return (
-    <nav className="bg-transparent fixed top-0 w-full z-20 border-gray-200 px-2 sm:px-4 py-2 rounded backdrop-blur-sm">
+    //fixed top-0
+    <nav className="bg-black  w-full z-20 border-gray-200 px-2 sm:px-4 py-2 rounded backdrop-blur-sm">
     <div className="container flex flex-wrap justify-between items-center mx-auto">
       <a href="https://flowbite.com/" className="flex items-center">
         <img src="https://cdn-icons-png.flaticon.com/512/2829/2829066.png" className="mr-3 h-6 sm:h-9" alt="Oyasumi.com" />
