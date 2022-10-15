@@ -27,57 +27,7 @@ function Landingpage() {
         </div>
       </div>
 
-      {/* <div class="w-full h-screen bg-green-300 max-h-fit overflow-hidden flex  items-center content-center  font-Quicksand">
-        <div class="flex flex-col items-center justify-center bg-yellow w-full h-screen font-Quicksand">
-          <h1 class="mb-10 text-3xl  font-bold ">About Us</h1>
-          <div class="w-3/4 mx-auto  flex-col  gap-6 ">
-            <div class="flex flex-col md:w-1/2 self-center items-center  ">
-              <img
-                src="https://cdn-icons-png.flaticon.com/512/2829/2829066.png"
-                class="w-32 h-32 md:w-80 md:h-80 self-center "
-              />
-              <h1 class="font-bold">Oyasumi.com</h1>
-            </div>
-            <div class="md:w-1/2 self-center font-semibold text-md ">
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
-              </p>
-              <div class="flex  gap-5 mt-12 justify-center">
-                <div class="flex flex-col  items-center">
-                  <img
-                    src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/60/000000/external-review-social-media-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"
-                    class="w-16 h-16"
-                  />
-                  <h1>Review</h1>
-                </div>
-                <div class="flex flex-col  items-center ">
-                  <img
-                    src="https://img.icons8.com/wired/64/000000/price-tag-euro.png"
-                    class="w-16 h-16"
-                  />
-                  <h1>Murah</h1>
-                </div>
-                <div class="flex flex-col  items-center">
-                  <img
-                    src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-booking-hotel-service-becris-lineal-becris.png"
-                    class="w-16 h-16"
-                  />
-                  <h1>Booking Cepat</h1>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
+    
 
       <div class="py-20 w-full flex flex-col items-start gap-6 justify-center  font-Quicksand text-xl bg-black text-white">
         <div class=" mx-auto bg-yellow-300 rounded-full px-6 py-1 flex items-center gap-2">
@@ -245,7 +195,7 @@ function Landingpage() {
         </div>
       </div>
 
-      <div class=" w-full pt-16 gap-2 p-10 font-Quicksand flex flex-col items-center bg-black text-white justify-center">
+      <div class=" w-full  gap-2 p-10 font-Quicksand flex flex-col items-center bg-black text-white justify-center">
         <div class="flex items-center justify-center my-9">
           <img
             src="https://cdn-icons-png.flaticon.com/512/2829/2829066.png"
@@ -905,7 +855,7 @@ function Landingpage() {
 
       <section class=" pb-10 lg:pb-20 bg-black text-white">
         <div class="container">
-          <div class="flex flex-wrap -mx-4">
+          <div class="flex flex-wrap ">
             <div class="w-full px-4">
               <div class="text-center mx-auto mb-[60px] max-w-[510px]">
                 <span class="font-semibold text-lg text-primary mb-2 block">
@@ -930,7 +880,7 @@ function Landingpage() {
               </div>
             </div>
           </div>
-          <div class="flex flex-wrap justify-center -mx-4">
+          <div class="flex flex-wrap justify-center ">
             <div class="w-full md:w-1/2 xl:w-1/4 px-4">
               <div class="max-w-[370px] w-full mx-auto mb-10">
                 <div class="relative rounded-lg overflow-hidden">
