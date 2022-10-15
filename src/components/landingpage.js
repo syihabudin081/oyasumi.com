@@ -2,6 +2,7 @@ import React from "react";
 import photo1 from "../assets/gallery1.jpg";
 import "tw-elements";
 import "flowbite";
+import { Link } from "react-router-dom";
 function Landingpage() {
   return (
     <>
@@ -18,12 +19,13 @@ function Landingpage() {
           <h1 class="text-4xl  md:text-5xl font-bold text-white leading-tight">
             Pilihan Tempat tidur Nyamanmu Ada di Oyasumi.com
           </h1>
+          <Link to="/hotellist">
           <button
             type="button"
             class="text-white bg-yellow-300 mt-6 text-xl hover:bg-yellow-500 focus:outline-none ofocus:ring-4 focus:ring-yellow-300 font-medium rounded-full px-5 py-2.5 text-center mr-2 mb-2 dark:focus:ring-yellow-900"
           >
             Booking Now!
-          </button>
+          </button></Link>
         </div>
       </div>
 
@@ -486,12 +488,13 @@ function Landingpage() {
           </div>
         </div>
 
-        <button
+        <Link
+        to="/hotellist"
           type="button"
-          class=" my-10 text-black border border-gray-800  focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-xl px-5 py-2.5 text-center mr-2 mb-2 bg-yellow-400 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
+          class=" my-10 text-black border border-gray-800  focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-xl px-5 py-2.5 text-center mr-2 mb-2 bg-yellow-300 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
         >
           More...
-        </button>
+        </Link>
       </div>
       <div class="container py-24 px-6 mx-auto bg-black text-white">
         <section class="mb-32 text-white text-center">
